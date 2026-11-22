@@ -1,0 +1,17 @@
+PDF Editor - third-party components
+====================================
+
+This program bundles the following components. Their licences apply to them.
+
+- MuPDF (WebAssembly build, npm package "mupdf"), Artifex Software: GNU Affero General Public License v3.0.
+  Because MuPDF is AGPL, this program as distributed is subject to the AGPL v3: its complete corresponding
+  source code must be made available to anyone who receives it.
+- PDF.js, Mozilla Foundation: Apache License 2.0.
+- pdf-lib, Andrew Dillon: MIT License.
+- Tesseract.js and tesseract.js-core, and the Tesseract language data: Apache License 2.0.
+- qrcode-generator, Kazuhiko Arase: MIT License.
+- Electron and Chromium: MIT License and the Chromium licences listed in LICENSES.chromium.html.
+- Fonts Inter, Caveat, Dancing Script and Great Vibes (via Fontsource): SIL Open Font License 1.1.
+
+All documents are processed locally on this computer. The "Ask Claude" and "Read aloud" features
+need the claude.ai web version and are not available in this desktop edition.

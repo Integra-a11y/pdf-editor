@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "PDF Editor",
+  "short_name": "PDF Editor",
+  "description": "PDF reader and editor with OCR, Swiss QR-bill and invoicing. Runs entirely in the browser.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#f5f5f7",
+  "theme_color": "#007aff",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "file_handlers": [{ "action": "./", "accept": { "application/pdf": [".pdf"] }, "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }], "launch_type": "single-client" }],
+  "launch_handler": { "client_mode": "focus-existing" }
+}
